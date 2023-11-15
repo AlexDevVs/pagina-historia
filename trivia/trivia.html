@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Página de Historia | 3°A </title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="scores">
+            <a id="highscores-link">Ver puntajes generales</a>
+        </div>
+        <div id="timer" class="timer">
+            Tiempo: 75
+        </div>
+    </header>
+
+    <section id="start-container" class="start-quiz">
+        <h1>¡Bienvenido a Trivia!</h1>
+        <p>
+            ¡Bienvenidos, desde la Escuela Secundaria N°1 Hoy les presentamos un emocionante desafío: nuestro juego de trivia. Prepárense para poner a prueba sus conocimientos en diversas categorías. ¿Quién será el genio que conquistará la trivia? 
+        </p>
+        <div class="controls">
+            <button id="start-btn" class="start-btn">Empezar Juego</button>
+        </div>
+    </section>
+
+    <section id="question-container" class="hide">
+        <h1 id="question">Question</h1>
+        <div id="answer-buttons" class="btn-grid">
+            <button class="btn">Respuesta 1</button>
+            <button class="btn">Respuesta 2</button>
+            <button class="btn">Respuesta 3</button>
+            <button class="btn">Respuesta 4</button>
+        </div>
+        <h2 id="check-answer" class="correct-wrong hide"></h2>
+        <div class="controls">
+            <button id="next-btn" class="next-btn hide">Siguiente</button>
+        </div>
+    </section>
+
+    <section id="score-container" class="hide">
+        <form id="submit-form">
+            <h3 id="your-score"></h3>
+            <label id="initials-label">Introduce tu nombre para guardar el puntaje:</label>
+            <input type="text" id="initials-field" maxlength="3" placeholder="Enter your initials" />
+            <button id="submit-btn">Entregar</button>
+        </form>
+    </section>
+
+    <section id="highscores" class="highscores-container hide">
+        <div id="high-scores">
+            <h1 class="centered">Leaderboard</h1>
+            <div id="highscore" class="highscore highscore-list">
+            </div>
+            <div class="controls">
+                <button id="restart-btn">Reiniciar</button>
+                <button id="clear-btn">Borrar puntajes</button>
+            </div>
+        </div>
+        
+    </section>
+
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/logic.js"></script>
+</body>
+
+</html>
