@@ -41,11 +41,11 @@ var questions = [
       ]
   },
   { 
-    question: "¿Qupe hizo la Burguesía durante la Revolución Industrial?",
+    question: "¿Qué hizo la Burguesía durante la Revolución Industrial?",
     answers: [
         { text: "Invirtieron en fábricas y maquinarias", correct: true },
         { text: "No hicieron nada", correct: false },
-        { text: "Violencia extrema", correct: true }
+        { text: "Violencia extrema", correct: false }
     ]
   },
   { 
