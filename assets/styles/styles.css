@@ -77,6 +77,11 @@ header {
     color: white;
     text-decoration-style: none; 
 }
+.button-name-vario {
+    text-decoration: none;
+    color: rgb(126, 44, 173);
+    text-decoration-style: none; 
+}
 
 
 footer {
