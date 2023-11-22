@@ -52,7 +52,7 @@ var questions = [
     question: "¿En que año sucedió la Doble Revolución?",
     answers: [
         { text: "Siglo XII", correct: false },
-        { text: "Siglo XIX", correct: true },
+        { text: "Siglo XXI", correct: true },
         { text: "Siglo XVI", correct: false }
     ]
   },
